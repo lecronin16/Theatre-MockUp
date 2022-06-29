@@ -1,0 +1,97 @@
+*{
+    margin:0;
+}
+
+.container{
+    background:white;
+    color:black;
+
+}
+
+nav{
+    background:black;
+    color:white;
+    
+}
+nav header h4{
+    font-size: larger;
+    padding-left:30px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    justify-content:center;
+    padding-right:250px;
+}
+
+#start{
+    flex-grow:.5;
+    text-align:left;
+    font-size:larger;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    padding: 0px 15px 0px 25px;
+    font-size: smaller;
+}
+
+.hero-image{
+    background-image:url(../Theatre_Mock_Up/images/theater-image-background.png);
+    height: 500px;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+}
+
+.hero-text{
+    color:white;
+    position:absolute;
+    top:50%;
+    left:50%;    
+    transform: translate(-50%,-50%);
+    font-size: xx-large;
+}
+
+main{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.month{
+    background-color:lightgray;
+    padding-left: 20px;
+    margin:50px 5px;
+    text-align:start;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width:60%
+}
+
+.post{
+    width:60%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom: 10px;
+    padding-bottom:10px;
+    border-bottom: 1px solid gray;
+}
+.post h5::first-line{
+    font-size: larger;
+}
+
+.post img{
+    height:200px;
+    width:200px;
+}
+
+.post button{
+    background-color:rgba(165, 134, 13, 0.844);
+    color:white;
+    padding: 6px 8px 6px 8px;
+    border: 1px gray;
+}
